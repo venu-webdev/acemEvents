@@ -1,0 +1,353 @@
+title, description, eventDate, eventTime, eventLocation, dateString, imgUrl, poster
+
+//Important
+
+{
+    "title": "Holidays",
+    "description": "declared holidays on account of deepavali on 11 and 13 november 2023",
+    "eventDate": "from 11 to 13 november 2023",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "11112023",
+    "imgUrl": ""
+}
+
+{
+    "title": "voter enrollment",
+    "description": "II, III and IV B.tech students informed to bring copics for voter enrollment ",
+    "eventDate": "on 22-11-2023",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "22112023",
+    "imgUrl": ""
+}
+{
+    "title": "bus timings",
+    "description": "bus timings of I trip is 15 minutes early and II trip is 15 minutes late",
+    "eventDate": "on 29-11-2023",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "29112023",
+    "imgUrl": ""
+}
+{
+    "title": "III year class room",
+    "description": "classes are changed for III year  ",
+    "eventDate": "on 9-12-2023",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "09122023",
+    "imgUrl": ""
+}
+{
+    "title": "XIII Convocation",
+    "description": "Award a gold medal to MS.Mayana Shahistha Khanum as university topper during 2018-2022 ",
+    "eventDate": "on 06-01-2024",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "06012024",
+    "imgUrl": ""
+}
+{
+    "title": "NDLI Club",
+    "description": "All departments are hereby informed to see that all faculty members and students to register their names with NDLC Club ",
+    "eventDate":"",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "",
+    "imgUrl": ""
+}
+{
+    "title": "college timings",
+    "description": "college timings changed due to adminsistrative reasons ",
+    "eventDate": "on 27-12-2023",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "27122023",
+    "imgUrl": ""
+}
+{
+    "title": "college working day",
+    "description": "Due to conducting of labs for III year and class work for II year  ",
+    "eventDate": "on 31-12-2023",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "31122023",
+    "imgUrl": ""
+}
+{
+    "title": "Holiday",
+    "description": "Due to NEW YEAR-2024 ",
+    "eventDate": "on 01-01-2024",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "01012024",
+    "imgUrl": ""
+}
+
+{
+    "title": "Holidays",
+    "description": "declared holidays on account of Sankranti from 13-01-2024 to 16-01-2-2024",
+    "eventDate": "from 13-01-2024 to 16-01-2-2024",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "13012024",
+    "imgUrl": ""
+}
+{
+    "title": "Registration",
+    "description": "For III B.Tech.II Semester",
+    "eventDate": "on 22-01-2024",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "22012024",
+    "imgUrl": ""
+}
+
+
+//Academics
+
+{
+    "title": "Elocution",
+    "description": "Topic for Elocution is Role of engineerss in nation building ",
+    "eventDate": "on 25-01-2024",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "25012024",
+    "imgUrl": ""
+}
+
+{
+    "title": "speeches",
+    "description": "As part of 75th Republic Day and Ethinic Day",
+    "eventDate": "on 26-01-2024",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "26012024",
+    "imgUrl": ""
+}
+{
+    "title": "project expo",
+    "description": "mini project ",
+    "eventDate": "on 10-02-2024",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "10022024",
+    "imgUrl": ""
+}
+
+
+//Cultural
+{
+    "title": "Rangoli competition",
+    "description": "As part of 75th Republic Day and Ethinic Day",
+    "eventDate": "on 17-01-2024",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "17012024",
+    "imgUrl": ""
+}
+{
+    "title": "Kite play",
+    "description": "As part of 75th Republic Day and Ethinic Day",
+    "eventDate": "on 17-01-2024",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "17012024",
+    "imgUrl": ""
+}
+{
+    "title": "Karra Billa",
+    "description": "As part of 75th Republic Day and Ethinic Day",
+    "eventDate": "on 17-01-2024",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "17012024",
+    "imgUrl": ""
+}
+{
+    "title": "Tug of war",
+    "description": "As part of 75th Republic Day and Ethinic Day",
+    "eventDate": "on 17-01-2024",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "17012024",
+    "imgUrl": ""
+}
+{
+    "title": "patriotic song",
+    "description": "As part of 75th Republic Day and Ethinic Day",
+    "eventDate": "on 17-01-2024",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "17012024",
+    "imgUrl": ""
+}
+
+
+//Sports
+{
+    "title": "",
+    "description": "",
+    "eventDate": "",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "",
+    "imgUrl": ""
+}
+{
+    "title": "",
+    "description": "",
+    "eventDate": "",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "",
+    "imgUrl": ""
+}
+{
+    "title": "",
+    "description": "",
+    "eventDate": "",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "",
+    "imgUrl": ""
+}
+
+//Career 
+{
+  "title": "internship",
+    "description": "internship from techsaksham programme",
+    "eventDate": "from 20-11-2023 to 25-11-2023",
+    "eventTime": "",
+    "eventLocation": "open auditorium",
+    "dateString": "20112023",
+    "imgUrl": ""
+}  
+{   
+ "title": "internship",
+    "description": "internship from NXT Wave",
+    "eventDate": "from 11 to 13 november 2023",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "11112023",
+    "imgUrl": ""
+}
+{
+    "title": "VIKSIT BHARATH",
+    "description": "Ideas sharing platform ",
+    "eventDate": "",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "",
+    "imgUrl": ""
+}
+//Community
+{
+    "title": "csp",
+    "description": " Evaluation for Community Service Project",
+    "eventDate": "on 23-12-2023",
+    "eventTime": "10 AM",
+    "eventLocation": "Room number:206",
+    "dateString": "23122023",
+    "imgUrl": ""
+}
+
+{
+    "title": "Blood Donation Camp",
+    "description": "Save life of other person by donating the blood",
+    "eventDate": "on 17-01-2024",
+    "eventTime": "11 AM",
+    "eventLocation": "Auditorium",
+    "dateString": 17012024,
+    "imgUrl": "https://www.careinsurance.com/upload_master/media/posts/June2020/IQKrrYI3nqo0i9PNqO7W.jpg",
+    "posterUrl":""
+}
+
+//Career
+{
+    "title": "",
+    "description": "",
+    "eventDate": "",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "",
+    "imgUrl": ""
+}
+{
+    "title": "",
+    "description": "",
+    "eventDate": "",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "",
+    "imgUrl": ""
+}
+{
+    "title": "",
+    "description": "",
+    "eventDate": "",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "",
+    "imgUrl": ""
+}
+
+//Celebrations
+{
+    "title": "",
+    "description": "",
+    "eventDate": "",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "",
+    "imgUrl": ""
+}
+{
+    "title": "",
+    "description": "",
+    "eventDate": "",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "",
+    "imgUrl": ""
+}
+{
+    "title": "",
+    "description": "",
+    "eventDate": "",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "",
+    "imgUrl": ""
+}
+
+
+//Alumini
+{
+    "title": "",
+    "description": "",
+    "eventDate": "",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "",
+    "imgUrl": ""
+}
+{
+    "title": "",
+    "description": "",
+    "eventDate": "",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "",
+    "imgUrl": ""
+}
+{
+    "title": "",
+    "description": "",
+    "eventDate": "",
+    "eventTime": "",
+    "eventLocation": "",
+    "dateString": "",
+    "imgUrl": ""
+}
