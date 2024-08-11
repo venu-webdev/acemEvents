@@ -28,77 +28,94 @@ import { useNavigate } from 'react-router-dom';
 const Home = () => {
   const navigate = useNavigate()
   const [data, setData] = useState([])
-  function fetchData(ref:string){
-    try{
-      axios.get(`http://localhost:4000/${ref}`,{headers: {
-                'authorization': 'Bearer ' + localStorage.getItem('accessToken')
-              }}).then((response)=>{
-                // console.log("got the resonse")
-                // console.log("from: ",response.data)
-                setData(response.data.data)
-              })
-    }catch(error){
+  function fetchData(ref: string) {
+    try {
+      axios.get(`http://localhost:4000/${ref}`, {
+        headers: {
+          'authorization': 'Bearer ' + localStorage.getItem('accessToken')
+        }
+      }).then((response) => {
+        // console.log("got the resonse")
+        // console.log("from: ",response.data)
+        setData(response.data.data)
+      })
+    } catch (error) {
       console.log(error)
     }
     // console.log("data[0].events:",data[0]["events"][0])
   }
-  useEffect(()=>{
-    try{
-      axios.get("http://localhost:4000/events/Important",{headers: {
-                'authorization': 'Bearer ' + localStorage.getItem('accessToken')
-              }}).then((response)=>{
-                console.log("got the resonse")
-                console.log("from: ",response.data)
-                setData(response.data.data)
-              })
-    }catch(error){
+  useEffect(() => {
+    try {
+      axios.get("http://localhost:4000/events/Important", {
+        headers: {
+          'authorization': 'Bearer ' + localStorage.getItem('accessToken')
+        }
+      }).then((response) => {
+        console.log("got the resonse")
+        console.log("from: ", response.data)
+        setData(response.data.data)
+      })
+    } catch (error) {
       console.log(error)
     }
-  },[])
+  }, [])
   return (
     <div className='w-screen h-screen px-[5%] md:px-[20%] py-[20px]'>
-      <Navbar/>
-      <hr  className='my-5'/>
+      <Navbar />
+      <hr className='my-5' />
       <div className='m-auto flex flex-row gap-2 border-transparent border-[1px] p-2 rounded-md w-[fit-content]'>
-        <Button variant={'outline'} onClick={()=>{
+        <Button variant={'outline'} onClick={() => {
           navigate("/")
           fetchData("events/Important")
         }} className='opacity-80 focus:font-semibold focus:bg-red-800 focus:text-white'>
           Important
         </Button>
-        <Button variant={'outline'} onClick={()=>{navigate("/")
-        fetchData("events/Academics")}} className='opacity-80 focus:font-semibold focus:bg-blue-800 focus:text-white'>
+        <Button variant={'outline'} onClick={() => {
+          navigate("/")
+          fetchData("events/Academics")
+        }} className='opacity-80 focus:font-semibold focus:bg-blue-800 focus:text-white'>
           Academics
         </Button>
-        <Button variant={'outline'} onClick={()=>{navigate("/")
-        fetchData("events/Cultural")}} className='opacity-80 focus:font-semibold focus:bg-blue-800 focus:text-white'>
+        <Button variant={'outline'} onClick={() => {
+          navigate("/")
+          fetchData("events/Cultural")
+        }} className='opacity-80 focus:font-semibold focus:bg-blue-800 focus:text-white'>
           Cultural
         </Button>
-        <Button variant={'outline'} onClick={()=>{navigate("/")
-        fetchData("events/Social")}} className='opacity-80 focus:font-semibold focus:bg-blue-800 focus:text-white'>
+        <Button variant={'outline'} onClick={() => {
+          navigate("/")
+          fetchData("events/Social")
+        }} className='opacity-80 focus:font-semibold focus:bg-blue-800 focus:text-white'>
           Social
         </Button>
-        <Button variant={'outline'} onClick={()=>{navigate("/")
-        fetchData("events/Academics")}} className='opacity-80 focus:font-semibold focus:bg-blue-800 focus:text-white'>
+        <Button variant={'outline'} onClick={() => {
+          navigate("/")
+          fetchData("events/Academics")
+        }} className='opacity-80 focus:font-semibold focus:bg-blue-800 focus:text-white'>
           Academics
+        </Button>
+        <Button variant={'outline'} onClick={() => {
+          navigate("/")
+          fetchData("events/Career")
+        }} className='opacity-80 focus:font-semibold focus:bg-blue-800 focus:text-white'>
+          Career
         </Button>
       </div>
       <div>
-        data is {data?"rendered": "not rendered"}
+        {data ? "" : "No Updates currently!"}
       </div>
-      <div>{Array.isArray(data)?(data).map(event=>{
+      <div className='flex flex-col gap-3'>{Array.isArray(data) ? (data).map(event => {
         // console.log("dat: ",dat)
-        return(
-          <div>
-            <div>{event.title}</div>
-            <div>{event.description?event.description: ""}</div>
-            <div>{event.imgUrl?event.imgUrl: ""}</div>
-            <img src={event.imgUrl?event.imgUrl: ""} alt="" />
-            <hr />
-          </div>
+        return (
+          <div className='flex w-[600px] gap-4 h-fit border-gray-100 dark:border-gray-800 border-2 px-5 py-4 rounded-md'>
+            {event.imgUrl ? (<a href={event.imgUrl} className='w-[100px]'><img className='rounded' src={event.imgUrl ? event.imgUrl : ""} alt="" /></a>) : ""}
+            <div><div className='font-bold text-xl'>{event.title}</div>
+              <div className='text-sm w-[80%]'>{event.description ? event.description : ""}</div>
+              {/* <a href={event.imgUrl ? event.imgUrl : "/"}><div>{event.imgUrl ? "preview poster" : ""}</div></a> */}
+            </div></div>
         )
-      }): "not rendered"}</div>
-    </div>
+      }) : "not rendered"}</div>
+    </div >
   )
 }
 
